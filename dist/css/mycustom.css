@@ -1,0 +1,168 @@
+label.error{
+	color: red;
+	font-weight: normal;
+	font-size: 13px;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+html {
+	width: 100vw;
+	height: 100vh;
+}
+
+body {
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: top;
+	background-image: url(https://media-exp1.licdn.com/dms/image/C4E1BAQFGnWx85vNRDw/company-background_10000/0/1519799916172?e=2159024400&v=beta&t=oGYwEwpjhhlZ23B-YcaZMhbFdchsJyYmVUCk-uos_uI);
+	width: 100%;
+	height: 100%;
+	font-family: 'Sarabun', sans-serif;
+	letter-spacing: 0.02em;
+	font-weight: 400;
+}
+
+
+
+h1 {
+	font-family: 'Sarabun', sans-serif;
+}
+
+h2 {
+	font-family: 'Sarabun', sans-serif;
+}
+
+h3 {
+	font-family: 'Sarabun', sans-serif;
+}
+
+sup {
+	font-family: 'Sarabun', sans-serif;
+}
+
+
+.blurred-box {
+	position: relative;
+	width: 250px;
+	height: 350px;
+	top: calc(50% - 175px);
+	left: calc(50% - 125px);
+	background: inherit;
+	border-radius: 2px;
+	overflow: hidden;
+}
+
+
+.blurred-box:after{
+	content: '';
+	width: 300px;
+	height: 300px;
+	background: inherit;
+	position: absolute;
+	left: -20px;
+	right: 0;
+	top: -25px;
+	bottom: 0;
+	box-shadow: inset 0 0 0 200px rgba(255, 255, 255, 0.0.05);
+	filter: blur(40px);
+}
+
+
+
+.user-login-box{
+	position: relative;
+	margin-top: 20px;
+	text-align: center;
+	z-index: 1;
+}
+
+.user-login-box > * {
+	display: inline-block;
+	width: 200px;
+}
+
+.user-icon {
+	width: 100px;
+	height: 100px;
+	position: relative;
+	border-radius: 50%;
+	background-size: contain;
+	background-image: url(https://www.onlinelogomaker.com/blog/wp-content/uploads/2017/07/medical-logo.jpg);
+}
+
+
+.user-name {
+	margin-top: 15px;
+	margin-bottom: 15px;
+	color: #000000;
+	font-size: large;
+}
+
+
+input.user-username {
+	margin-bottom: 7px !important;
+	font-family: 'Sarabun', sans-serif;
+}
+
+input.user-password {
+	margin-bottom: 7px !important;
+	font-family: 'Sarabun', sans-serif;
+}
+
+input.user-checkbox {
+	display: block;
+	opacity: 0.4;
+
+}
+
+button.user-button {
+	font-family: 'Sarabun', sans-serif;
+}
+
+span.logo-mini{
+	font-family: 'Sarabun', sans-serif;
+}
+
+span.logo-lg{
+	font-family: 'Sarabun', sans-serif;
+}
+
+span.sr-only{
+	font-family: 'Sarabun', sans-serif;
+}
+
+.a{
+	font-family: 'Sarabun', sans-serif;
+}
+
+
+h3.box-title{
+	font-family: 'Sarabun', sans-serif;
+}
+
+input.user-username, input.user-password {
+	display: block;
+	width: 200px;
+	height: 18px;
+	opacity: 0.4;
+	border-radius: 2px;
+	padding: 15px 15px;
+	border: none;
+	margin: 0 auto;
+	outline: none;
+}
+
+
+button.user-button {
+	width: 80px;
+	height: 30px;
+	opacity: 0.9;
+	border-radius: 1px;
+}
